@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web basica</title>>
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>mi pagina web basica</h1>
+    <nav>
+        <a href="#inicio">inicio</a>
+         <a href="#info">info</a>
+          <a href="#contacto">contacto</a>
+    </nav>
+  </header>  
+    
+    <main>
+    <section id="inicio">
+    <h2>inicio</h2>
+    <p>Esta pagina usa <b>pseudiclases</b>como <code>:homer</code>, 
+        <code>:focus</code> y <code>:valid</code>/<code>:invalid</code>.
+    </p>
+    
+    <a class="btn" href="#contacto">Ir al formulario</a>
+    </section>
+
+    <section id="info">
+        <h2>info</h2>
+        <div class="cards"> 
+            <div class="card">
+    <h3>targeta 1</h3>
+    <p>pasa el mouse encima para ver <code>:hover</code></p>
+            </div>
+            <div class="card">
+                <h3>Targeta 2</h3>
+                <p> En movil se acomodan una debajo de la otra.</p>
+            </div>
+        </div>
+        <br>
+         <div class="cards"> 
+            <div class="card">
+    <h3>targeta 3</h3>
+    <p>pasa el mouse encima para ver <code>:hover</code></p>
+            </div>
+            <div class="card">
+                <h3>Targeta 4</h3>
+                <p> En movil se acomodan una debajo de la otra.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="contacto">
+    <h2>contacto</h2>
+
+    <form>
+    <label>
+        Nombre:
+    <imput type="text" required minlegth="3" placeholder="Tu nombre" ><imput type="text"required minlegth="3" placeholder="Tu nombre"/>
+    <textarea required minlegth="10" placeholder="Tu nombre" ></textarea>
+</label>
+
+    <label>
+        Email:
+   <imput type="email"required minlegth="3" placeholder="Tu nombre"/>
+        <textarea required minlegth="10" placeholder="Correo@ejemplo.com" ></textarea>
+</label>
+
+    <label>
+        Mensaje:
+    <textarea required minlegth="10" placeholder="escribe algo..." ></textarea>
+    </label>
+
+    <label class="check">
+    <input type="checkbox" required>
+    acepto terminos
+    </label>
+    
+    <button type="submit">enviar</button>
+    </form>
+    </section>
+    </main>
+<footer>
+    <p>2026-pagina basica</p>
+</footer>
+</body>
+</html>

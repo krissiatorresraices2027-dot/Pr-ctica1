@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi tersera pagina web responsive</title>
+</head>
+<body>
+    <style>
+body{
+    margin: 0;
+    font-family: Arial,  sans-serif;
+    line-height: 1.5;
+}
+header,nav,main,footer{
+    padding: 15px;
+}
+header{
+    background: #000;
+    color: rgb(122, 76, 196);
+}
+nav{
+    background: rgb(190, 165, 231);
+}
+footer{
+    background: #000;
+    color: beige; 
+    text-align: center;
+}
+.wrap{
+    max-width: 900px;
+    margin: auto;
+    
+}
+nav a{
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 8px 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #8cdee9;
+    text-decoration: none;
+    color: #caabf1;
+}
+.caja{
+    background: #f5eef4;
+    border: 1px solid #a398e4;
+    padding: 15px;
+    margin: 15px 0;
+
+}
+main div{
+    display: flex;
+}
+img{
+    max-width: 350px;
+    height: 350px;
+}
+    </style>
+    <header>
+        <div class="wrap">
+            <h1>mi web responsive</h1>
+            <p>
+        esto funciona bien en movil sin casi usar media queries
+            </p>
+        </div>
+        <nav>
+            <div class="wrap">
+            <a href="#">inicio</a>
+             <a href="#">Productos</a>
+              <a href="#">galerias</a>
+               <a href="#">contactos</a>
+            </div>
+            <main>
+                <div class="wrap">
+        <section class="caja">
+    <h2>seccion A</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam in aspernatur temporibus quis itaque neque animi ducimus consequatur eos dolorum, hic, corporis nihil cum deserunt quia aperiam autem id.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate est voluptatum in aspernatur maiores maxime pariatur, tenetur voluptates saepe quibusdam cumque illo nulla rerum tempora fugiat? Soluta, asperiores dolorem.</p>
+    <img src="https://purepng.com/public/uploads/large/purepng.com-jerry-tom-and-jerrytom-and-jerrytomjerryanimated-seriesin-1940characters-17015286595464y8nc.png">
+    </section>
+
+    <section class="caja">
+    <h2>seccion B</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam in aspernatur temporibus quis itaque neque animi ducimus consequatur eos dolorum, hic, corporis nihil cum deserunt quia aperiam autem id.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate est voluptatum in aspernatur maiores maxime pariatur, tenetur voluptates saepe quibusdam cumque illo nulla rerum tempora fugiat? Soluta, asperiores dolorem.</p>
+    <img src="https://static.wikia.nocookie.net/717e1355-cc0c-4ad2-9dfc-8353d8f70169/scale-to-width/755">
+    </section>
+
+                </div>
+            </main>
+            <footer>
+                <div class="wrap">
+            <p> 2026-ejemplo basico</p>
+                </div>
+            </footer>
+        </nav>
+    </header>
+</body>
+</html>
